@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Information Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        img {
+            max-width: 100px; /* Adjust size as needed */
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fruit Information Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Fruit</th>
+                <th>Image</th>
+                <th>Color</th>
+                <th>Average Weight (g)</th>
+                <th>Calories (per 100g)</th>
+                <th>Scientific Name</th>
+                <th>Season</th>
+                <th>Nutritional Benefits</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td><img src="https://tse3.mm.bing.net/th?id=OIP.kzo22vGPqcf7d5w_QJhrfQHaFj&pid=Api&P=0&h=180" alt="Apple"></td>
+                <td>Red/Green</td>
+                <td>182</td>
+                <td>52</td>
+                <td>Malus domestica</td>
+                <td>Fall</td>
+                <td>Rich in fiber, vitamins, and antioxidants</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td><img src="https://tse1.mm.bing.net/th?id=OIP.J6QnxhQiRN42LGS-n9grEAAAAA&pid=Api&P=0&h=180" alt="Banana"></td>
+                <td>Yellow</td>
+                <td>118</td>
+                <td>89</td>
+                <td>Musa</td>
+                <td>Year-Round</td>
+                <td>Good source of potassium, vitamin B6, and vitamin C</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td><img src="https://tse2.mm.bing.net/th?id=OIP.IBIkZZ2EtRifofS1j5IfzQHaE8&pid=Api&P=0&h=180" alt="Orange"></td>
+                <td>Orange</td>
+                <td>131</td>
+                <td>47</td>
+                <td>Citrus sinensis</td>
+                <td>Winter</td>
+                <td>High in vitamin C, antioxidants, and fiber</td>
+            </tr>
+            <tr>
+                <td>Strawberry</td>
+                <td><img src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/21-Best-Benefits-Of-Strawberries-For-Skin-Hair-And-Health.jpg" alt="Strawberry"></td>
+                <td>Red</td>
+                <td>12</td>
+                <td>32</td>
+                <td>Fragaria × ananassa</td>
+                <td>Spring/Summer</td>
+                <td>Rich in vitamin C, manganese, and antioxidants</td>
+            </tr>
+            <tr>
+                <td>Watermelon</td>
+                <td><img src="https://tse3.mm.bing.net/th?id=OIP.VdaXEGlRmCE9S9a2K-C7yAHaE8&pid=Api&P=0&h=180" alt="Watermelon"></td>
+                <td>Green/Red</td>
+                <td>9200</td>
+                <td>30</td>
+                <td>Citrullus lanatus</td>
+                <td>Summer</td>
+                <td>Hydrating, high in vitamins A and C, and contains antioxidants</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
