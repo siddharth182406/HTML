@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1><b>This is an html file with bold text</b></h1>
+        <h2><b>This is an html file with bold text</b></h2>
+        <h3><b>This is an html file with bold text</b></h3>
+        <h4><b>This is an html file with bold text</b></h4>
+        <h5><b>This is an html file with bold text</b></h5>
+        <h6><b>This is an html file with bold text </b></h6>
+
+        <p>This is an exmaple of<sub>SUBSCRIPT</sub>and <sup>SUPERSCRIPT</sup></p>
+        <P><strong>This text is important</strong></P>
+        <P><i>This text is italic</i></P>
+        <p>The tag to <mark>highlight</mark> text</p>
+        <p><small>This is some smaller text</small></p>
+
+
+    </body>
+</html>
